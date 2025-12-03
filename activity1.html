@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+        area calculator app in js
+    </h2>
+    <script>
+        var choice= prompt("select the area that you want to calculate\n 1.circle\n2.square\n3.rectangle\n4.parellogram\n5.trianlgr")
+        if(choice==1){
+            r=prompt("what is the radius? ")
+            area=3.14*r*r
+            alert("the area of the circle is "+ area)
+        }
+        else if(choice==2){
+            side=prompt("what is sides length?")
+            area1=side*side
+            alert("the area of square is "+ area1)
+        }
+        else if(choice==3){
+            l=prompt("what is length?")
+            b=prompt("what is breadth")
+            area2=l*b
+            alert("the area of rectangle is "+ area2)
+        }
+        else if(choice==4){
+            b=prompt("what is base?")
+            h=prompt("what is height")
+            area3=b*h
+            alert("the area of parellogram is "+ area3)
+        }
+        else if(choice==5){
+            b=prompt("what is base?")
+            h=prompt("what is the height")
+            area4=0.5*b*h
+            alert("the area of triangle is "+ area4)
+        }
+  </script>
+</body>
+</html>
